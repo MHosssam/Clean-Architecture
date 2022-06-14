@@ -1,3 +1,4 @@
 class AppString {
-  static String appName = 'Quotes App';
+  static const String appName = 'Quotes App';
+  static const String fontFamily = 'Cairo';
 }

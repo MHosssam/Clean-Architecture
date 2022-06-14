@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quotes/core/utils/app_strings.dart';
 
 class AppTheme {
   static const _colorSchemeLight = ColorScheme(
@@ -96,6 +97,7 @@ class AppTheme {
     return ThemeData(
       useMaterial3: true,
       primarySwatch: Colors.orange,
+      fontFamily: AppString.fontFamily,
       scaffoldBackgroundColor: colorScheme.background,
       backgroundColor: colorScheme.background,
       colorScheme: colorScheme,
