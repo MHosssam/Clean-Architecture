@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quotes/core/utils/app_strings.dart';
 import 'package:quotes/features/presentation/screens/quote_screen.dart';
 
 class QuoteApp extends StatelessWidget {
@@ -7,7 +8,7 @@ class QuoteApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Quote App',
+      title: AppString.appName,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
