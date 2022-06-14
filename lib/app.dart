@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quotes/config/themes/app_theme.dart';
 import 'package:quotes/core/utils/app_strings.dart';
 import 'package:quotes/features/presentation/screens/quote_screen.dart';
 
@@ -9,11 +10,9 @@ class QuoteApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: AppString.appName,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: const QuoteScreen(),
       debugShowCheckedModeBanner: false,
+      theme: AppTheme.getTheme(Brightness.light),
     );
   }
 }
