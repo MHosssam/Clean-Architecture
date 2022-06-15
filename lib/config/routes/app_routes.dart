@@ -1,6 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:quotes/features/presentation/screens/quote_screen.dart';
+import 'package:quotes/features/quotes/presentation/screens/quote_screen.dart';
 
 class Routes {
   static const String initialRoute = '/';
